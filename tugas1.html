@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WEBSITE</title>
+
+		<style>
+			.container {
+				width: 800px;
+				height: 1500px;
+				border: 2px solid red;
+				margin:auto;
+				position: relative; 
+				top: 100px;
+			}
+			.judul {
+				width: 800px;
+				height: 100px;
+				border: 1px solid yellow;
+				padding-left: 20px;
+				padding-top: 20px;
+				box-sizing: border-box;
+			}
+			.judulatas {
+				font-size: 30px;
+				text-shadow: 3px 2px red;
+				font-family: Arial;
+			}
+			.menu {
+				width: 800px;
+				height: 50px;    
+				border: 1px solid black;
+				padding-top: 20px;
+				padding-left: 20px;
+				box-sizing: border-box;
+			}
+			.menu a{
+				text-decoration: none;
+				color:salmon;
+			}
+			.menu a:hover{
+				background-color: lightskyblue;
+				color:white;
+			}
+			.banner {
+				background-color: red;
+				width: 800px;
+				height: 250px;
+				background-image: url(banner.png);
+				background-size: cover;
+				background-position-y:-150px; 
+			}
+			.judulartikel {
+				padding-left: 20px;
+				padding-top: 20px;
+			}
+			.konten {
+				width: 800px;
+				height: 400px;
+				padding: 20px 20px 20px 20px;
+				box-sizing: border-box;
+				background-color: yellow;
+				overflow: auto;   
+			}
+			.konten img {
+				float: left;
+				padding: 20px 20px;
+			}
+			.gallery {
+				border-radius: 10px;
+				background-color: green;
+				margin: 5px 5px 5px 5px;
+				width: 190px;
+				height: 150px;
+				float: left;
+			}
+			.thumbnail {
+				border-radius: 5px;
+				width: 170px;
+				height: 60px;
+				margin: 10px auto;
+				background-color: grey;
+			}
+			.ribbon {
+				width: 100px;
+				height: 100px;
+				position: absolute;
+				background-image: url(ribbon.png);
+				left:700px;
+				top:-20px;
+				border: 1px solid blue;
+			}
+			.layarhitam {
+				border-radius: 5px;
+				width: 200px;
+				height: 50px;
+				position: absolute;
+				left:10px;
+				top:30px;
+				background-color:yellow;
+				opacity: 0.5;
+				border: 1px solid yellow;
+			}
+			.panel_mode {
+				width: 150px;
+				height: 100px;
+				background-color: blueviolet;
+				border-radius: 10px;
+				position: fixed;
+				left:1150px;
+			}
+			.cobaevent {
+				width: 100px;
+				height: 100px;
+				background-color: yellow;
+			}
+			.cobaevent1 {
+				width: 100px;
+				height: 100px;
+				background-color:blue;
+			}
+			.cobaevent2 {
+				width: 100px;
+				height: 100px;
+				background-color: red;
+			}
+		</style>
+</head>
+<body>
+    <div class="panel_mode">
+<br>
+	<center>
+        <button type="button" onclick="ubahwarna_dark()">Mode Malam Hari</button>
+        <br>
+        <br>
+        <button type="button" onclick="ubahwarna_light()">Mode Siang Hari</button>
+    </center>
+    </div>
+    <div class="container">
+		<div class="layarhitam"></div>
+		<div class="ribbon">    </div>
+		<div class="judul">
+		<h1 class="judulatas">My Website</h1>
+		</div>
+		<div class="menu">
+			<a href="#">Home</a>
+			<a href="#">Profil</a>
+			<a href="#">Contact</a>
+		</div>
+		<div class="banner">
+		</div>
+		<div class="judulartikel">
+		<h2>Brawijaya</h2>
+		<p> Ditulis Oleh Grace Angelita Sitorus</p>
+		</div>
+		<div id="konten" class="konten">
+			<img src="logo ub.jpg">
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum porro aliquid blanditiis ipsum maxime id, fugit eaque! Recusandae, repellat dolore. Eaque voluptates suscipit laudantium consectetur nobis est, unde repellendus dignissimos?</p>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quasi culpa repudiandae animi minus commodi fuga. Ipsum, dolorem nisi. Tempora labore suscipit iusto voluptates fuga dolore repellendus tenetur magnam nam.</p>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum porro aliquid blanditiis ipsum maxime id, fugit eaque! Recusandae, repellat dolore. Eaque voluptates suscipit laudantium consectetur nobis est, unde repellendus dignissimos?</p>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quasi culpa repudiandae animi minus commodi fuga. Ipsum, dolorem nisi. Tempora labore suscipit iusto voluptates fuga dolore repellendus tenetur magnam nam.</p>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum porro aliquid blanditiis ipsum maxime id, fugit eaque! Recusandae, repellat dolore. Eaque voluptates suscipit laudantium consectetur nobis est, unde repellendus dignissimos?</p>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quasi culpa repudiandae animi minus commodi fuga. Ipsum, dolorem nisi. Tempora labore suscipit iusto voluptates fuga dolore repellendus tenetur magnam nam.</p>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum porro aliquid blanditiis ipsum maxime id, fugit eaque! Recusandae, repellat dolore. Eaque voluptates suscipit laudantium consectetur nobis est, unde repellendus dignissimos?</p>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quasi culpa repudiandae animi minus commodi fuga. Ipsum, dolorem nisi. Tempora labore suscipit iusto voluptates fuga dolore repellendus tenetur magnam nam.</p>
+		</div>
+		<br><br>
+		<div class="pembungkusgallery">
+		<div class="gallery"> 
+		<div class="thumbnail">
+		</div>
+		<h2> Judul Berita </h2>
+		<p>Ini adalah contoh berita <read more></p>
+		</div>
+		<div class="gallery"> 2 </div>
+		<div class="gallery"> 3 </div>
+		<div class="gallery"> 4 </div>
+		<div class="gallery"> 5 </div>
+		<div class="gallery"> 6 </div>
+		<div class="gallery"> 7 </div>
+		<div class="gallery"> 8 </div>
+		</div>
+	</div>
+	<div id="cobaeventku" class="cobaevent" onmouseup="divkelakuan()" onmousedown="divkelakuan1()"></div>
+		<script>
+			function ubahwarna_dark(){
+			   document.getElementById('konten').style.backgroundColor="black";
+			   document.getElementById('konten').style.color="white";
+			   }
+			function ubahwarna_light(){
+				document.getElementById('konten').style.backgroundColor="yellow";
+				document.getElementById('konten').style.color="black";
+				}
+			function divkelakuan(){
+				document.getElementById('cobaeventku').className="cobaevent1";
+				}
+			function divkelakuan1(){
+				document.getElementById('cobaeventku').className="cobaevent2";
+				}
+		</script>
+</body>
+</html>
